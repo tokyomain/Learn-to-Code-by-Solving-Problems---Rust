@@ -17,8 +17,7 @@ fn main() {
     }
     if let Some(index) = cups.iter().position(|&x| x == 1) {
         println!("{}", index+1);
-        } else {
-            println!("No se encontro la bola.");
-        }
-
+    } else {
+        println!("No se encontro la bola.");
+    }
 }
